@@ -1,0 +1,81 @@
+<body class="color-fondo">
+    <br>
+
+    <div style="display: flex; justify-content: center;">
+       <h2 style="color:antiquewhite">Table Category List</h2>
+     </div>
+    <br/> 
+
+     <!-- Search bar --------------------------------------------------->
+
+<div class="wrapper">
+    <div class="search-group">
+      <input type="search" class="search-input" [(ngModel)]="searchTerm" placeholder="Search by Code or Category" />
+      <div class="search-icon-wrapper link">
+      <img src="../../../../../assets/icons/search.png" alt="" class="search-icon" />
+    </div>
+  </div>
+</div>
+
+<br/>
+
+    <!-- end Search bar ------------------------------------------------>
+
+
+<div style="max-height: 40em !important; display: flex; flex-wrap: nowrap; flex-direction: column; overflow:auto;">
+
+  <table class="table table-secondary table-bordered  table-hover text-center table-responsive-sm mt-5 "  >
+    <thead class="table-dark border-light">
+     <tr>
+        <th scope="col">#</th>
+        <th scope="col">Photo</th>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Edit/delete</th>
+                       
+     </tr>
+    </thead>
+    <tbody class="border-dark table-secondary">
+      <tr *ngFor="let element of filteredCategories | paginate: { itemsPerPage: 5, currentPage: page }; let row = index;" >           
+        
+        <td >{{row+1}}</td>
+        <td>
+          <img [src]= 'baseUrl+element.image' width="45vmax" height="50vmax" alt='Category'></td>
+
+        <td>{{element?.name ? element?.name :'not set'}}</td>
+        <td>{{element?.description? element?.description :'not set'}}</td>
+        <td style="width: 8em;">
+          <button class="btn btn-primary">
+            <span (click)="editDetails(element.id)">
+              <ng-icon name="bootstrapPersonLinesFill"/>
+            </span>
+          </button>&nbsp;
+          <button class="btn btn-danger"  >
+            <span (click)="deleteDetails(element,row,$event)">
+               <ng-icon name="bootstrapTrash3"/>
+            </span>
+          </button>
+        </td>
+    </tr>
+   </tbody>
+</table>       
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div> 
+<div style="background-color: #2196f3;">
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>
+<br/>
+<br/>
+<br/>
+  </body>

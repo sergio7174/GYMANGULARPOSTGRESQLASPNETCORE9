@@ -1,0 +1,112 @@
+nav{
+  background-color: #4c4c4c!important;
+  /* background-color: #141e26!important; */
+  height: 100px;
+  
+  /* width: 100%; */
+}
+
+nav img{
+  height: 50px;
+  width: 50px;
+  border-radius: 35px;
+}
+nav img:hover{
+  animation: rotate 2s linear infinite;
+
+  box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+  0px 2px 4px rgba(0,255,255,0.5), 
+  0px 4px 8px rgba(0,255,255,0.5), 
+  0px 8px 16px rgba(0,255,255,0.5); 
+            
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+#navbarSupportedContent li a{
+  color: #cbd8df!important;
+  width: 150px;
+  width: 7em;
+  height: 2em;
+
+  text-align: center;
+  font-size: 20px;
+ 
+}
+
+#navbarSupportedContent li a:hover{
+  border-radius: 45px;
+  box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+            0px 2px 4px rgba(0,255,255,0.5), 
+            0px 4px 8px rgba(0,255,255,0.5), 
+            0px 8px 16px rgba(0,255,255,0.5);
+ 
+  transition: box-shadow 1.5s;
+
+
+  
+}
+
+#fitness{
+  color: #cbd8df!important;
+  font-size: 2em;
+}
+#fitness:hover{
+ 
+  text-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+            0px 2px 4px rgba(0,255,255,0.5), 
+            0px 4px 8px rgba(0,255,255,0.5), 
+            0px 8px 16px rgba(0,255,255,0.5);
+
+  transition: text-shadow 2s;
+}
+
+/*** my styles ******/
+
+
+  
+.shadow {
+  box-shadow: 0 0.0625rem 0.125rem 0.0625rem #00000026;
+  }  
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+.brand-group {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 3em;
+  @media (max-width: 760px) {display: none;}
+ }
+
+  /*** Styles to move the menu options to the center in small screens **/
+  .litScreenDontShow { @media (max-width: 760px) { display: none;}}
+  
+  /*#main-container{@media (max-width: 760px) { min-height: 25em;}}*/
+  #main-container{@media (max-width: 1024px) { display:flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; min-height: 25em;}}
+  
+  .dropdown-item:hover{
+
+    color:#141e26!important;
+    /* border-radius: 45px; */
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+              0px 2px 4px rgba(0,255,255,0.5), 
+              0px 4px 8px rgba(0,255,255,0.5), 
+              0px 8px 16px rgba(0,255,255,0.5);
+   
+    transition: box-shadow 1.5s;
+    margin-left: 0.5em;
+    background-color: rgb(60, 63, 62);
+  
+  }

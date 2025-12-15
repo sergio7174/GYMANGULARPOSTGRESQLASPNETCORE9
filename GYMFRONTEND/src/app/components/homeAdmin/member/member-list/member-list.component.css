@@ -1,0 +1,159 @@
+.color-fondo {background-color : rgb(3, 42, 56);}
+
+.link:hover {
+    filter: brightness(1.1);
+    }
+ 
+    .shadow {
+    box-shadow: 0 0.0625rem 0.125rem 0.0625rem #00000026;
+    }
+
+    .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    background-color:rgb(9, 100, 128);
+    z-index: 100;
+    color: var(--text-color);
+    position: relative;
+    top: 0px;
+    left: 5px;
+    /*@media (min-width: 760px) {padding: 10px 30px;}*/
+   @media (max-width: 760px) {flex-direction: column;}
+    }
+
+.search-group {
+    height: 100%;
+    width: 20%;
+    display: none;
+    align-items: center;
+    margin-left: 0em !important;
+    @media (min-width: 760px) {
+    display: flex;
+    margin-left: -40px;}
+    
+    }
+    
+    .search-input {
+    width: 100%;
+    width: 40%;
+    height: var(--search-input-height);
+    height: 2.8em;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding-left: 30px;
+    padding-left: 3em;
+    padding-right: 60px;
+    margin-left: 2cqb;
+    @media (min-width: 760px) {
+    width: 600px;
+    }
+    }
+    .search-icon-wrapper {
+    background-color: var(--main-color);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height:2.8em;
+    width: calc(var(--search-input-height) + 10px);
+    
+    margin-left: calc(-1 * var(—search-input-height) + 10px);
+    position: relative;
+    left: -1em;
+    
+    
+    
+    }
+    .search-icon {
+    width: 100%;
+    width: 3em;
+    height: 100%;
+    height: 3em;
+
+    object-fit: contain;
+    padding: 11px;
+    cursor: pointer;
+    }
+    .mobile {
+    display: flex;
+    width: 100%;
+    padding-top: 2px;
+    @media (min-width: 760px) {
+    display: none;
+    }}
+
+    body{ margin-top: 2em;}
+
+    .table-hover > tbody > tr:hover {
+        background-color: #ccffff;
+      }
+       
+      @media only screen and (min-width: 768px) {
+        .table {
+          table-layout: fixed;
+          max-width: 100% !important;
+        }
+      }
+       
+      thead {
+        background: #ddd;
+      }
+       
+      .table td:nth-child(2) {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+       
+      .highlight {
+        background: #ffff99;
+      }
+       
+      @media only screen and (max-width: 767px) {
+        /* Force table to not be like tables anymore */
+        table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+          display: block;
+        }
+       
+        /* Hide table headers (but not display: none;, for accessibility) */
+        thead tr,
+      tfoot tr {
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+        }
+       
+        td {
+          /* Behave  like a "row" */
+          border: none;
+          border-bottom: 1px solid #eee;
+          position: relative;
+          padding-left: 50% !important;
+        }
+       
+        td:before {
+          /* Now like a table header */
+          position: absolute;
+          /* Top/left values mimic padding */
+          top: 6px;
+          left: 6px;
+          width: 45%;
+          padding-right: 10px;
+          white-space: nowrap;
+        }
+       
+      
+    }
+
+    /**** to handle the colors of the days left column in table******/
+
+    .positive { color: green; font-weight: 600;}
+    .negative { color: red; font-weight: 600;}

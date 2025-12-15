@@ -1,0 +1,91 @@
+<!------------------------------------------------------------------------>
+<div style="display: flex ; flex-direction: row ; justify-content: center; flex-wrap: wrap ;background: rgb(60, 136, 167) !important;"  id="main-container"> 
+  <!-- Begining of the NavBar Block  -->
+ <nav class="navbar navbar-expand-lg " style="background:  rgb(60, 136, 167)  !important; height: 4em !important;">
+     <div class="container-fluid" >
+     
+
+      <a class="navbar-brand " href="#">
+        <img [src]="imageurl" alt="Bootstrap">
+      </a>
+      <a class="navbar-brand mx-1 custom-fitness " href="#" id="fitness" style="margin-right: 2em !important;">Sergio Fitness</a>
+       
+       
+
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     
+<ul class="menuItems navbar-nav me-auto">
+    
+<!-- OPtion Packs ------------------------------------------------------>
+   <li class="nav-item mx-3">
+    <a class="nav-link fw-semibold" [routerLink]="['/packs']">Packs</a>
+  </li>
+<!--- OPtion classes -------------------------------------------------->
+  <!--- 2 Th Menu option ----------->
+  <li class="nav-item dropdown mx-3">
+    <a style="color: antiquewhite;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >
+      Classes</a>
+    <ul class="dropdown-menu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+    <li>
+      <a class="dropdown-item" [routerLink]="['/classes']" style="color: black !important;">Classes List</a>
+    </li>
+    <li>
+      <a class="dropdown-item" [routerLink]="['/classTable']" style="color: black !important;">Classes Table</a>
+    <li>
+
+    </ul>
+  </li> 
+<!--- 2 Th Menu option end block----------->
+
+        <!--- OPtion purchases ----------------------------------------->
+        <li class="nav-item mx-3">
+            <a class="nav-link fw-semibold" [routerLink]="['/contactus']">Contact Us</a>
+          </li>
+  
+  <!--- OPtion Reports ----------------------------------------->
+  <!--- 4 Th Menu option ----------->
+  <li class="nav-item dropdown mx-3">
+        <a style="color: antiquewhite;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >
+          Pages</a>
+        <ul class="dropdown-menu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+        <li>
+          <a class="dropdown-item" [routerLink]="['/plans']" style="color: black !important;">Our Plans</a>
+        </li>
+        <li>
+          <a class="dropdown-item" [routerLink]="['/trainers']" style="color: black !important;">Trainers</a>
+        <li>
+
+        </ul>
+      </li> 
+    <!--- 4 Th Menu option end block----------->
+
+    <!--- OPtion Reports ----------------------------------------->
+  <!--- 5 Th Menu option ----------->
+  <li class="nav-item dropdown mx-3">
+    <a style="color: antiquewhite;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >
+      Members</a>
+    <ul class="dropdown-menu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+    <li>
+      <a class="dropdown-item" [routerLink]="['/memberStatus']" style="color: black !important;">Status</a>
+    </li>
+    <li>
+      <a class="dropdown-item" [routerLink]="['/profile']" style="color: black !important;">Profile</a>
+    </li>
+
+    </ul>
+  </li> 
+<!--- 5 Th Menu option end block----------->
+  
+  
+  
+         </ul>
+    
+       </div>
+     </div>
+    </nav> 
+    </div> 
+   

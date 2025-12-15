@@ -1,0 +1,177 @@
+<!-- Start Breadcrumb -->
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+           <div>
+              <span>
+                 <h4><a href="#">Home</a></h4>
+              </span>
+          </div>
+          <div style="margin-top: 0.2em;">
+            <span>
+                <ng-icon name="bootstrapChevronRight" size="25px"/>
+            </span>
+         </div>
+         <div> 
+            <span> 
+                <h4><a href="#">Class Details</a></h4>
+            </span>
+        </div>    
+        </div>
+    </div>
+</div>
+
+<!-- End Breadcrumb -->
+
+<!-- Start Class Details  Section -->
+
+<section class="class-details-section">
+ <div class="container">
+  <div class="row">
+   <div class="col-lg-8">
+    <div class="left-content">
+     <img class="class-image" [src]= 'baseUrl+DataClass.image' alt="img">
+      <div class="class-meta">
+       <div class="item">
+        <span class="heading">Level: </span>
+        <span class="data">{{DataClass.classlevel}}</span>
+       </div>
+        <span class="separetor"></span>
+         <div class="item">
+          <span class="heading">Duration: </span>
+          <span class="data">{{DataClass.classtime}}</span>
+         </div>
+          <span class="separetor"></span>
+           <div class="item">
+            <span class="heading">Session: </span>
+            <span class="data">{{DataClass.session_time}} days</span>
+           </div>
+           <span class="separetor"></span>
+            <div class="item">
+             <span class="heading">Price: </span>
+             <span class="data">${{DataClass.price}}</span>
+            </div>
+           </div>
+          <div class="main-separetor"></div>
+           <h4 class="title">Class Overview:</h4>
+           <p class="discription">{{DataClass.class_overview}}</p>
+           <h4 class="title">Class Title: {{DataClass.classname}}</h4>
+           <p class="discription">This class boosts cardiovascular health, burns fat, and builds strength through high-intensity cycling and conditioning. It's perfect for all fitness levels, keeping you motivated while improving endurance, stamina, and overall well-being.   
+           </p>
+            <div class="list-box">
+             <div class="list">
+              <p>Key Benefits:</p>
+              <ul>
+                <li>
+                 <i class="fa-solid fa-square-check"></i>
+                  {{DataClass.key_benefits}}
+                </li>
+                <li>
+                 <i class="fa-solid fa-square-check"></i>
+                 Enhances overall athletic performance.
+                </li>
+                <li>
+                 <i class="fa-solid fa-square-check"></i>
+                 Improves endurance and recovery.
+                </li>
+               </ul>
+            </div>
+             <div class="list">
+              <p>Expert Trainer:</p>
+              <ul>
+               <li>
+                <i class="fa-solid fa-square-check"></i>
+                {{DataClass.expert_trainer}}
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-check"></i>
+                  Specialized Training
+                </li>
+                <li>
+                  <i class="fa-solid fa-square-check"></i>
+                  Personalized Guidance
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-box">
+         <p>This gym transformed my fitness journey! Amazing trainers, top-notch equipment, and a motivating atmosphere. I feel stronger, healthier, and more confident every day. Highly recommend!</p>
+         <div class="name">
+          <p><span class="divider"></span>{{DataClass.trainer}}</p>
+         </div>
+         <div class="text-img">
+          <img src="assets/images/class-details-bg.png" alt="class">
+         </div>
+        </div>
+        <div class="images-box">
+         <img src="assets/images/class-pag-1.png" alt="class">
+         <img src="assets/images/class-pag-3.png" alt="class">
+        </div>
+    </div>
+</div>
+    <div class="col-lg-4">
+      <div class="right-content">
+        <h4 class="title">Other Classes</h4>
+          <div class="recent-item">
+            <div class="recent-image">
+              <img src="assets/images/class-pag-2.png" alt="classes">
+            </div>
+            <div class="recent-text">
+             <p class="date">
+                <i class="fa-solid fa-calendar-days"></i>
+                February 3, 2025
+             </p>
+             <h4><a class="name" href="#">Yoga Flow Basics</a></h4>
+            </div>
+           </div>
+            <div class="recent-item">
+             <div class="recent-image">
+              <img src="assets/images/class-pag-1.png" alt="class">
+             </div>
+            <div class="recent-text">
+              <p class="date">
+                <i class="fa-solid fa-calendar-days"></i>
+                February 3, 2025
+              </p>
+              <h4><a class="name" href="#">Spin & Sweat</a></h4>
+            </div>
+           </div>
+           <div class="recent-item">
+            <div class="recent-image">
+              <img src="assets/images/class-pag-3.png" alt="class">
+            </div>
+            <div class="recent-text">
+             <p class="date">
+                <i class="fa-solid fa-calendar-days"></i>
+                February 3, 2025
+             </p>
+             <h4><a class="name" href="#">HIIT Power Hour</a></h4>
+            </div>
+           </div>
+          <div class="recent-item">
+            <div class="recent-image">
+              <img src="assets/images/class-pag-4.png" alt="class">
+          </div>
+          <div class="recent-text">
+            <p class="date">
+              <i class="fa-solid fa-calendar-days"></i>
+              February 3, 2025
+            </p>
+             <h4><a class="name" href="#">Pilates Reformer</a></h4>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+    </div>
+<!---- Back Button -->
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>
+</section>
+
+

@@ -1,0 +1,109 @@
+/*================
+ Classes Pag Section 
+==================*/
+
+.classes-pag{
+	padding-top: 120px;
+	padding-bottom: 96px;
+}
+.classes-pag .classes-box{
+	border: 1px solid rgba(197, 52, 35, 20%);
+	padding: 30px;
+	border-radius: 20px;
+	margin-bottom: 24px;
+}
+.classes-pag .classes-box:hover{
+	border: 1px solid var(--main-color);
+	transition: 0.4s;
+}
+.classes-pag .classes-box img{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.classes-pag .classes-box .heading{
+	font-size: 28px;
+	line-height: 1.200;
+	margin-top: 25px;
+	text-transform: capitalize;
+}
+.classes-pag .classes-box p{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.classes-pag .classes-box a{
+	color: var(--title-color);
+	transition: 0.3s;
+}
+.classes-pag .classes-box:hover a{
+	color: var(--main-color);
+}
+.classes-pag .classes-box a i{
+	margin-left: 10px;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+	.classes-pag{
+		padding: 80px 0px;
+	}
+	.classes-pag .col-lg-4.col-md-6:last-child .classes-box{
+		margin-bottom: 0px;
+	}
+}
+
+
+/*=============
+ Breadcrumb
+===============*/
+
+.breadcrumb-area{
+    background-image:	url(../../../../../assets/images/breadcrumb-img.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	padding: 138px 0px 156px;
+}
+.breadcrumb-area .heading{
+	color: #fff;
+	margin-bottom: 10px;
+}
+.breadcrumb-area .contact-box{
+	display: flex;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	align-items: center;
+}
+.breadcrumb-area .contact-box ul li a{
+	color: #fff;
+	transition: 0.3s;
+}
+.breadcrumb-area .contact-box ul li a:hover{
+	color: var(--main-color);
+}
+.breadcrumb-area .contact-box span i{
+	font-size: 18px;
+	margin: 0px 10px;
+}
+
+/* Responsive */
+
+@media (max-width: 1199px) {
+	.breadcrumb-area .heading{
+		font-size: 38px;
+	}
+}
+@media (max-width: 767px) {
+	.breadcrumb-area{
+		padding: 88px 0px 92px;
+	}
+	.breadcrumb-area .heading{
+		font-size: 34px;
+	}
+	.breadcrumb-area .contact-box{
+		font-size: 18px;
+	}
+}

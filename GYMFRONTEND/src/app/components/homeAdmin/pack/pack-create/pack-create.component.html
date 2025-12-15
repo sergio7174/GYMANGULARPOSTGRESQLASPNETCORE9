@@ -1,0 +1,243 @@
+<div class="container mt-4">
+    
+    <!-- Start Breadcrumb -->
+
+	<div class="breadcrumb-area">
+		<div class="container">
+			<div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center;">
+               <div>
+                  <span>
+                     <h4><a href="#">HomeAdmin</a></h4>
+                  </span>
+              </div>
+              <div style="margin-top: 0.2em;">
+				<span>
+                    <ng-icon name="bootstrapChevronRight" size="25px"/>
+                </span>
+             </div>
+             <div> 
+				<span> 
+                    <h4><a href="#">Create Pack</a></h4>
+                </span>
+            </div>    
+			</div>
+		</div>
+	</div>
+
+	<!-- End Breadcrumb -->
+    
+    <div class="window rounded-3">
+        
+        <div class="row windowsSSheight">
+            <!-- Columna para la imagen -->
+            <div class="col-md-5 d-flex justify-content-center align-items-center" style="margin: 2em;">
+
+                <img class="img-fluid rounded-3" src="../../../../assets/images/about-img-1.png" alt="Gym_logo" >
+            </div>
+            <div class="col-md-5 rounded-3" style="margin-left: 2em;">
+               <div class="logo text-center">
+                <div class="row nav_logo_texts">
+                    <div class="col-12">
+                        <span class="nav_logo-name" style="position: relative; top: 15px; color: #2b69dd;">Gym Control</span> 
+                        
+                    </div>
+                    <div class="col-12">
+
+                        <img src="../../../../assets/logo/logo2.jpg" width="50em" alt="Gym-logo">&nbsp;&nbsp;
+                        <span class="nav_logo-name"  style="color: #2b69dd;">Sergio Fitness</span>
+                        <span class="nav_logo-name"  style="color: #0b0a4b; font-size: 1rem; position: relative; top: -5px; left: 5px;">App</span>
+                    </div>
+
+                </div>
+               </div>
+                <div class="formPack">
+                   <div style="display: flex; flex-direction: row; justify-content: center;">
+                    
+                    
+
+                    <div>
+                      <h2 class="text-center nav_logo-name" style="padding-top: -1em; color: #2b69dd;">Create Pack </h2>
+                    </div>
+                </div>
+                    <br/>
+                    <form [formGroup]="packForm" (ngSubmit)="onpack()" autocomplete="off">
+
+  <!---- Pack nameplan section ---------------------->    
+     <div style="display: flex; flex-direction: row; flex-wrap: wrap;justify-content:space-between;">                  
+        <div class="mb-3 col-md-5">
+          <label for="nameplan" class="form-label">
+            <ng-icon name="bootstrapReceipt" size="32px"/> &nbsp; 
+                Pack Name:
+          </label>
+            <input type="text" name="nameplan" class="form-control input" id="nameplan"
+              formControlName="nameplan" autocomplete="off" placeholder="Plan Name">
+                @if(packForm.get('nameplan')?.hasError('required')&&packForm.get('nameplan')?.touched){
+                <div class="form-error">
+                 <span class="text-danger">Pack Name is required*</span>
+                </div>
+                }
+         </div>
+
+ <!---- Pack cost section ---------------------->                       
+ <div class="mb-3 col-md-3">
+    <label for="cost" class="form-label">
+      <ng-icon name="bootstrapCoin" size="32px"/> &nbsp; 
+      Cost:
+    </label>
+      <input type="number" name="cost" class="form-control input" id="cost"
+        formControlName="cost" autocomplete="off" placeholder="Cost"
+         min="30" max="250">
+          @if(packForm.get('cost')?.hasError('required')&&packForm.get('cost')?.touched){
+          <div class="form-error">
+           <span class="text-danger">Pack Cost is required*</span>
+          </div>
+          }
+   </div>
+
+ <!---- Pack status section ---------------------->                       
+ <div class="mb-3 col-md-3">
+  <label for="status" class="form-label">
+    <ng-icon name="bootstrapCheckCircle" size="32px"/> &nbsp; 
+    Status:
+  </label>
+
+      <select name="status" id="status" class="form-control input" formControlName="status" placeholder="Status">
+        <option value="inactive">Inactive</option>
+        <option value="active">active</option>   
+      </select>
+
+        @if(packForm.get('status')?.hasError('required')&&packForm.get('status')?.touched){
+        <div class="form-error">
+          <span class="text-danger">Pack Status is required*</span>
+        </div>
+        }
+ </div>  
+
+</div> <!--- End of section for planname, cost, status -->
+
+<!---- Pack description section -------------------->                       
+<div class="mb-3">
+    <label for="description" class="form-label">
+      <ng-icon name="bootstrapBack" size="32px"/> &nbsp; 
+          Pack Description:
+    </label>
+      <input type="text" name="description" class="form-control input"   
+        id="description"
+        formControlName="description" autocomplete="off" placeholder="Please, Enter Pack Description">
+            @if(packForm.get('description')?.hasError('required')&&packForm.get('description')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Pack Description is required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+<!---- Pack trialdaysFeatures section ---------------->   
+<div style="display: flex; flex-direction: row; flex-wrap: wrap;">                  
+<div class="mb-3 col-md-4">
+    <label for="trialdays" class="form-label">
+      <ng-icon name="bootstrapCalendar2DayFill" size="32px"/>
+          Trials days Feat:
+    </label>
+      <input type="number" name="trialdays" class="form-control input"  min=1 max="180" 
+        id="trialdays"
+        formControlName="trialdays" autocomplete="off" placeholder="Trials days Features">
+            @if(packForm.get('trialdays')?.hasError('required')&&packForm.get('trialdays')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Pack Trials days Features are required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+<!---- Pack timedays section ------------------------->                       
+<div class="mb-3 col-md-4" style="margin-left: 1em;">
+    <label for="timedays" class="form-label">
+      <ng-icon name="bootstrapCalendar2DayFill" size="32px"/> &nbsp; 
+       Timedays:
+    </label>
+      <input type="number" name="timedays" class="form-control input"  min=1 max="180" 
+        id="timedays"
+        formControlName="timedays" autocomplete="off" placeholder="Time days">
+            @if(packForm.get('timedays')?.hasError('required')&&packForm.get('timedays')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Pack Time days are required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+<!---- Pack code section ------------------------->                       
+<div class="mb-3 col-md-3" style="margin-left: 1em;">
+    <label for="code" class="form-label">
+      <ng-icon name="bootstrapFiletypeKey" size="32px"/> &nbsp; 
+       Code:
+    </label>
+      <input type="text" name="code" class="form-control input"  
+        id="code" formControlName="code" autocomplete="off" placeholder="Code">
+            @if(packForm.get('code')?.hasError('required') && packForm.get('code')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Pack Code is required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+
+
+</div>  <!-- End of this line in view form -->
+<!---- Pack features section ---------------->                       
+<div class="mb-3">
+    <label for="features" class="form-label">
+      <ng-icon name="bootstrapFileEarmarkSpreadsheet" size="32px"/> &nbsp; 
+          Features:
+    </label>
+      <input type="text" name="features" class="form-control input"  
+        id="features" formControlName="features" autocomplete="off" placeholder="Features">
+            @if(packForm.get('features')?.hasError('required') && packForm.get('features')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Pack Features are required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+
+
+
+        <!------ Pack Image Section ------------------------->
+        
+        <div class="mb-3">
+
+            <label for="image" class="control-label" style="color: aliceblue; font-weight: bold;">Add Pack Picture:
+
+            </label>
+        
+               <input id="image" type="file"  class="form-control " name="myfile" accept="image/*"  formControlName="image" (change)="changeImg($event)" multiple required="required" />
+               
+               
+            <div class="file-custom"  >
+                <!-- ensures that the image is only displayed when a file has been selected and the preview is ready.-->
+                @if (imagePreviewUrl) {
+                <img [src]="imagePreviewUrl" alt="Preview" style="margin: 1em; height: 10em; width: 8em;">}
+            </div>
+
+        </div>                        
+        <!------ End Of Pack Image SEction ------------------>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100 mt-3 btnPack" id="btnpack" [disabled]="packForm.invalid"> Create Pack</button>
+                        </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,92 @@
+<div class="container">
+    <div class="window rounded-3">
+        <div class="row windowsSSheight">
+            <!-- Columna para la imagen -->
+            <div class="col-md-5 d-flex justify-content-center align-items-center" style="margin: 1em;">
+                <img class="img-fluid rounded-3" src="../../../../assets/images/work-1.png" alt="Gym_logo" >
+            </div>
+            <div class="col-md-6 rounded-3" style="margin-left: 2em;">
+               <div class="logo text-center">
+                <div class="row nav_logo_texts">
+
+                    <div class="col-12" style="margin-top: 2em;margin-bottom: 2em;">
+                        <span class="nav_logo-name" style="color: #2b69dd; ">Gym Control</span> 
+                        
+                    </div>
+
+                    <div class="col-12">
+
+                        <img src="../../../../assets/logo/logo2.jpg" width="50em" alt="pharmacy-logo">&nbsp;&nbsp;
+                        <span class="nav_logo-name"  style="color: #2b69dd;">Sergio Fitness</span>
+                        <span class="nav_logo-name"  style="color: #0b0a4b; font-size: 1rem; position: relative; top: -5px; left: 5px;">App</span>
+                        <div>
+                            <h2 class="text-center nav_logo-name" style="padding-top: 0.5em; color: #2b69dd;">LogIn </h2>
+                          </div>
+                    </div>
+
+                </div>
+               </div>
+                
+               <div class="formLoginNo" style="height: 20em; margin-bottom: 2em;">
+
+                   <div style="display: flex; flex-direction: row; justify-content: center;">
+                   
+                    
+                
+                    <br/>
+
+                  <div class="col-lg-6"> 
+                    <form [formGroup]="form" (ngSubmit)="login()" autocomplete="off">
+
+                        <div class="mb-3">
+                            <label for="username" class="form-label">
+                                <ng-icon name="bootstrapMailbox2Flag" size="32px"/> &nbsp; 
+                                Email:</label>
+                            <input type="username" name="email" class="form-control input" id="email"
+                            formControlName="email" autocomplete="off" placeholder="Please, Enter your Email">
+                            @if(form.get('email')?.hasError('required')&&form.get('email')?.touched){
+                                <div class="form-error">
+                                    <span class="text-danger">Email is required*</span>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="field">
+                            <ng-icon name="bootstrapKeyFill" size="32px"/> &nbsp; 
+                            <label for="password" id="password">Password:
+                            </label>  
+                            <p-password
+                              formControlName="password"
+                              [feedback]="false"
+                              [toggleMask]="true"
+                              inputId="password"
+                              inputStyleClass="w-full"
+                              styleClass="w-full"  
+                            />
+                            @if(form.get('password')?.hasError('required')&&form.get('password')?.touched){
+                                <div class="form-error">
+                                    <span class="text-danger">Password is required*
+
+                                    </span>
+                                </div>
+                            }
+                          </div>
+                    <!--  @if (haveAdmin=='false') { --> 
+                         
+                        <div class="mt-2" id="notamember">
+                            Not Account? &nbsp; &nbsp; <a routerLink="/register" style="color: crimson; font-weight: bold;" id="goregister">Register</a>
+                          </div> <!--} -->
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100 mt-3 btnLogin" id="btnLogin" [disabled]="form.invalid">Login</button>
+                        </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </form>
+                  </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

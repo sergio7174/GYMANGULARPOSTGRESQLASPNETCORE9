@@ -1,0 +1,101 @@
+<body class="color-fondo">
+    <br>
+
+    <div style="display: flex; justify-content: center;">
+       <h2 style="color:antiquewhite">Table Members List</h2>
+     </div>
+    <br/> 
+
+     <!-- Search bar --------------------------------------------------->
+
+<div class="wrapper">
+    <div class="search-group">
+      <input type="search" class="search-input" [(ngModel)]="searchTerm" placeholder="Search by Name and Email" />
+      <div class="search-icon-wrapper link">
+      <img src="../../../../../assets/icons/search.png" alt="Search" class="search-icon" />
+    </div>
+  </div>
+</div>
+
+<br/>
+
+    <!-- end Search bar ------------------------------------------------>
+
+
+<div style="max-height: 40em !important; display: flex; flex-wrap: nowrap; flex-direction: column; overflow:auto;">
+
+  <table class="table table-secondary table-bordered  table-hover text-center table-responsive-sm mt-5 "  >
+    <thead class="table-dark border-light">
+     <tr>
+        <th scope="col" style="width: 2em;">#</th>
+        <th scope="col" style="width: 5em;">Name</th>
+        <th scope="col" style="width: 8em;">Email</th>
+        <th scope="col" style="width: 4em;">Phone</th>
+        <th scope="col" style="text-wrap: wrap; width: 6em;">client CI</th>
+        <th scope="col" style="width: 6em;">nameplan</th>
+        <th scope="col">timedays</th>
+        <th scope="col" style="width: 5em;">Cost</th>
+        <th scope="col">Code</th>
+        <th scope="col">Status</th>
+        <th scope="col">Days Left</th>
+        <th scope="col">Photo</th>
+        <th scope="col">Action</th>
+
+     </tr>
+    </thead>
+    <tbody class="border-dark table-secondary">
+      <tr *ngFor="let element of filteredmembers | paginate: { itemsPerPage: 5, currentPage: page }; let row = index; " >           
+        
+        <td style="width: 2em;">{{row}}</td>
+        <td>{{element?.namemember ? element?.namemember :'not set'}}</td>
+        <td style="width: 6em; word-wrap: break-word;">{{element?.email ? element?.email :'not set'}}</td>
+        <td style="text-wrap: wrap !important; overflow: hidden ;">{{element?.phone? element?.phone :'not set'}}</td>
+        <td>{{element?.client_CI? element?.client_CI :'not set'}}</td>
+        <td>{{element?.nameplan? element?.nameplan :'not set'}}</td>
+        <td>{{element?.timedays? element?.timedays :'not set'}}</td>
+        <td>{{element?.cost? element?.cost :'not set'}}</td>
+        <td>{{element?.code ? element?.code :'not set'}}</td>
+        <td [ngClass]="{
+          'positive': memberStatus[row] = true,
+          'negative': memberStatus[row] = false
+        }">{{element?.status ? element?.status :'not set'}}
+        </td>
+        
+        <td style="width: 8em !important;" [ngClass]="{
+          'positive': daysLeft_mathFloor[row] > 0,
+          'negative': daysLeft_mathFloor[row] < 3
+        }">
+        {{daysLeft_mathFloor[row]}}
+        </td>
+        <td>
+          <img [src]= 'baseUrl+element.imageUser' width="45vmax" height="50vmax" alt='Staff'>
+        </td>
+        <td><button class="btn btn-danger"  >
+          <span (click)="deleteDetails(element,row,$event)">
+             <ng-icon name="bootstrapTrash3"/>
+          </span>
+        </button></td>
+        
+    </tr>
+   </tbody>
+</table>       
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div> 
+<div style="background-color: #2196f3;">
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>
+<br/>
+<br/>
+<br/>
+  </body>

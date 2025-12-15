@@ -1,0 +1,84 @@
+
+
+
+    <!-- @if (!IsAdmin){ -->
+    <header id="header" class="header sticky-top">
+       
+        <!---- All group div ------------------------------------------->  
+        <div class="topbar d-flex align-items-center justify-content-around flex-wrap">
+           
+              
+              <!---- Gym logo image Block ----------------------------------->
+              <div class="showlogo" style=" display: flex; flex-direction: row; align-items: center; justify-content: center; margin-right: 2em;">
+                
+                <!--<div class="brand-group link" routerLink="/home" style="margin-top: -0.2em;">
+                  
+                  <img src="../../../assets/logo/pharmacylogo04sb.png" alt="Nothing"  class="logo link rounded-3"  style="height: 6em; width: auto; margin-right: -1em;"/>
+                </div>-->
+                  <div class="navbar-brand" style="font-size: x-large; margin-top: -0.3em;">
+                    <em style="color: antiquewhite;" id="shopping">Gym Action</em>
+                </div>
+              </div>
+              <!---- Electronic Store e logo image Block End ------------------------------>
+              
+                  <div class="d-flex flex-row justify-content-center align-items-center">
+      
+                  
+                   
+              </div>
+              <!--- Login button section -->
+                <div>
+      
+                  <div *ngIf="!IsAdmin" class="Buttonlogin">
+                      <button class="btn btn-secondary" (click)="login()">
+                       Login/SignUp
+                      </button>  
+                   
+                  
+                </div>
+                </div>
+                
+                <!--- Login button section End -->  
+      
+                <div *ngIf="UserName" style="margin-top: -0.9em;"> 
+                  <button  (click)="logout()" class="btn btn-danger" >
+                   Sign out
+                  </button>
+                  
+                </div>
+              
+               <div *ngIf="IsAdmin">
+                 <div class="admin" style="color: white; margin-top: -0.7em; margin-left: 2em; font-size: 1.2em; font-weight:400;">Wellcome: {{UserName}}</div>
+               </div>
+         
+      
+      <!----- Cart Group Begining Block --------------------------------->
+       <!----- Cart Group Begining Block -------------------------------------->
+    <div class="cartGroup" style="margin-top: -0.5em; margin-left: 4em; margin-right: 2em;">
+               
+      <!--<div class="cart link" routerLink="/cart">
+           <div class="cart" (click)="onGoCart()" id="cart">
+               <img src="assets/icons/cart.png" alt="" class="cart-icon link" />
+               <span class="cart-count">{{ count() }}</span>
+               <span class="cart-total">${{ total() | number : "1.2-2" }}
+
+               </span>
+               
+             </div>
+      </div>-->
+   
+       </div> <!----- Cart Group Block End -------------------------> 
+       <img [src]= 'photo' width="50em" height="50em" alt="Photo" class="rounded"/>
+      <!----- Cart Group Block End ------------------------->
+      
+              <div class="social-links d-none d-md-flex align-items-center" id="social-links">
+                <a href="#" class="twitter"><ng-icon name="bootstrapTwitter" size="26px" /></a>
+                <a href="#" class="facebook"><ng-icon name="bootstrapFacebook" size="26px" /></a>
+                <a href="#" class="instagram"><ng-icon  name="bootstrapInstagram" size="26px" /></a>
+                <a href="#" class="linkedin"><ng-icon name="bootstrapLinkedin" size="26px" /></a>
+              </div>
+            
+          </div> <!---- All group div End Block  ------------------------------------------> 
+        </header>
+    <!-- } -->
+   

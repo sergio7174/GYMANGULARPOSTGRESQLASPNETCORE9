@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+/*=================
+ Basic Setup
+===================*/
+/* regular style toast*/
+@import 'ngx-toastr/toastr';
+
+:root {
+    --paragraph-color: #707070;
+    --main-color: #C53423;
+    --title-color: #252525;
+  }
+
+input.valid  {border: solid green;}
+input.invalid { border: solid red;}

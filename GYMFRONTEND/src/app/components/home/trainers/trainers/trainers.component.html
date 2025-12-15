@@ -1,0 +1,80 @@
+ <!-- Start Breadcrumb -->
+
+	<div class="breadcrumb-area">
+		<div class="container">
+			<div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+               <div>
+                  <span>
+                     <h4><a href="#">Home</a></h4>
+                  </span>
+              </div>
+              <div style="margin-top: 0.2em;">
+				<span>
+                    <ng-icon name="bootstrapChevronRight" size="25px"/>
+                </span>
+             </div>
+             <div> 
+				<span> 
+                    <h4><a href="#">Staff List</a></h4>
+                </span>
+            </div>    
+			</div>
+		</div>
+	</div>
+
+	<!-- End Breadcrumb -->
+
+<section class="team-section trainers-section" style="margin-top: -5em !important;">
+  <div class="container">
+    <div class="row">
+      <div class="team-member">
+        @for (staff of filteredItems; track staff.id) {
+          <!--- begins my block -->
+          <div class="member-box" style="margin: 1em; border: 0.3em double  gray;">
+            <div class="images">
+             <img [src]= 'baseUrl+staff.image' width="45vmax" height="50vmax" alt='Staff'>
+           </div>
+           <div class="bio">
+            <h4 class="name">{{staff.name}}</h4>
+             <p>{{staff.field}}</p>
+              <ul class="social-icons">
+               <li>
+                <a href="#" class="twitter">
+                 <ng-icon name="bootstrapTwitter" size="26px" />
+                </a>
+               </li>
+               <li>
+                <a href="#">
+                 <ng-icon name="bootstrapFacebook" size="26px" />
+                </a>
+               </li>
+               <li>
+                <a href="#">
+                 <ng-icon  name="bootstrapInstagram" size="26px" />
+                </a>
+               </li>
+               <li>
+                <a href="#">
+                    <ng-icon name="bootstrapLinkedin" size="26px" />
+                </a>
+               </li>
+            </ul>
+          </div>
+        </div>
+            
+  <!--- Ends my block -->
+
+
+    }
+ </div>
+</div>     
+</div>
+</section> 
+<app-footer></app-footer>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+  

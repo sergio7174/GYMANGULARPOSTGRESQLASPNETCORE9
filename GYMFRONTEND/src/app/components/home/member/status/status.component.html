@@ -1,0 +1,93 @@
+<!-- Start Breadcrumb -->
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+           <div>
+              <span>
+                 <h4><a href="#">Home</a></h4>
+              </span>
+          </div>
+          <div style="margin-top: 0.2em;">
+            <span>
+                <ng-icon name="bootstrapChevronRight" size="25px"/>
+            </span>
+         </div>
+         <div> 
+            <span> 
+                <h4><a href="#">Member Status</a></h4>
+            </span>
+        </div>    
+        </div>
+    </div>
+</div>
+
+<!-- End Breadcrumb -->
+
+<!-- Start Class Details  Section -->
+
+<div class="container mt-4" style="height: 40em;">
+ <div class="window rounded-3">
+  <div class="row windowsSSheight">
+   <!-- Columna para la imagen -->
+    <div class="col-md-5 d-flex justify-content-center align-items-center" style="margin: 2em;">
+     <img class="class-image" [src]= 'baseUrl+DataMember.imageUser' alt="img" style="height: 36em; width: 30em; margin-top: 1,5em; margin-left: 2em;">
+    </div>
+     <div class="col-md-5 rounded-3" style="margin-left: 2em;">
+      <div class="logo text-center">
+       <div class="row nav_logo_texts">
+        <div class="col-12">
+         <span class="nav_logo-name" style="position: relative; top: 15px; color: #2b69dd;">Gym Control</span> 
+                        
+        </div>
+         <div class="col-12">
+          <img src="../../../../assets/logo/logo2.jpg" width="50em" alt="Gym-logo">&nbsp;&nbsp;
+          <span class="nav_logo-name"  style="color: #2b69dd;">Sergio Fitness</span>
+          <span class="nav_logo-name"  style="color: #0b0a4b; font-size: 1rem; position: relative; top: -5px; left: 5px;">App</span>
+        </div>
+        
+        <div>
+            <h2 class="text-center nav_logo-name" style="padding-top: 0.5em; color: #2b69dd;">Member Status
+
+            </h2>
+        </div>
+       
+      </div>
+      </div>
+                               
+
+   <h4>Member Name: {{DataMember.namemember}}</h4>
+   <h4>Email: {{email}}</h4>
+   
+   <h4>Time Days Pack: {{DataMember.timedays}}</h4>
+  
+   <div style="display: flex; flex-direction: row; justify-content: space-between;">
+    <h4>Price: {{DataMember.cost}} $</h4>
+    <h4 [ngClass]="{
+    'positive': DataMember.status == true,
+    'negative': DataMember.status == false
+    }">Status: {{DataMember.status}}</h4>
+    
+
+
+    <h4 [ngClass]="{
+          'positive': daysLeft_mathFloor > 0,
+          'negative': daysLeft_mathFloor < 3
+         }">Days Left: {{daysLeft_mathFloor}}</h4>
+</div>
+
+<h4>Finish Pack Date: {{DataMember.finishAt | date : "EEEE YYYY-MM-dd"}}</h4>
+    <br/>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ 
+<!---- Back Button -->
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>

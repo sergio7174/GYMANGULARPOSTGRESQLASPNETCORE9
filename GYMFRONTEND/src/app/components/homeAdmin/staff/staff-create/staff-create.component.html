@@ -1,0 +1,244 @@
+<div class="container mt-4">
+    
+    <!-- Start Breadcrumb -->
+
+	<div class="breadcrumb-area">
+		<div class="container">
+			<div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center;">
+               <div>
+                  <span>
+                     <h4><a href="#">HomeAdmin</a></h4>
+                  </span>
+              </div>
+              <div style="margin-top: 0.2em;">
+				<span>
+                    <ng-icon name="bootstrapChevronRight" size="25px"/>
+                </span>
+             </div>
+             <div> 
+				<span> 
+                    <h4><a href="#">Create Staff</a></h4>
+                </span>
+            </div>    
+			</div>
+		</div>
+	</div>
+
+	<!-- End Breadcrumb -->
+    
+<div class="window rounded-3">
+  <div class="row windowsSSheight" >
+    <!-- Columna para la imagen -->
+     <div class="col-md-5 d-flex justify-content-center align-items-center" style="margin: 2em;">
+       <img class="img-fluid rounded-3" src="../../../../assets/images/about-img-1.png" alt="Gym_logo" >
+    </div>
+     <div class="col-md-5 rounded-3" style="margin-left: 2em;">
+      <div class="logo text-center">
+       <div class="row nav_logo_texts">
+        <div class="col-12">
+          <span class="nav_logo-name" style="position: relative; top: 15px; color: #2b69dd;">Gym Control
+          </span>               
+        </div>
+         <div class="col-12">
+          <img src="../../../../assets/logo/logo2.jpg" width="50em" alt="Gym-logo">&nbsp;&nbsp;
+            <span class="nav_logo-name"  style="color: #2b69dd;">Sergio Fitness
+            </span>
+            <span class="nav_logo-name"  style="color: #0b0a4b; font-size: 1rem; position: relative; top: -5px; left: 5px;">App
+            </span>
+        </div>
+       </div>
+      </div>
+        <div class="formPack">
+          <div style="display: flex; flex-direction: row; justify-content: center;">   
+            <div>
+              <h2 class="text-center nav_logo-name" style="padding-top: -1em; color: #2b69dd;">Create Staff </h2>
+            </div>
+         </div>
+          <br/>
+    <form [formGroup]="staffForm" (ngSubmit)="onstaff()" autocomplete="off" style="min-width: 30em;">
+
+  <!---- Pack name section ---------------------->    
+     <div style="display: flex; flex-direction: row; flex-wrap: wrap;justify-content:space-between;">                  
+        <div class="mb-3 col-md-5">
+          <label for="name" class="form-label">
+            <ng-icon name="bootstrapPersonCircle" size="32px"/> &nbsp; 
+                Name:
+          </label>
+            <input type="text" name="name" class="form-control input" id="name"
+              formControlName="name" autocomplete="off" placeholder="Name">
+                @if(staffForm.get('name')?.hasError('required')&&staffForm.get('name')?.touched){
+                <div class="form-error">
+                 <span class="text-danger">Name is required*</span>
+                </div>
+                }
+         </div>
+
+ <!---- Pack email section ---------------------->                       
+ <div class="mb-3 col-md-6">
+    <label for="email" class="form-label">
+      <ng-icon name="bootstrapMailbox2Flag" size="32px"/> &nbsp; 
+      Email:
+    </label>
+      <input type="text" name="email" class="form-control input" id="email"
+        formControlName="email" autocomplete="off" placeholder="Email">
+          @if(staffForm.get('email')?.hasError('required')&&staffForm.get('email')?.touched){
+          <div class="form-error">
+           <span class="text-danger">Email is required*</span>
+          </div>
+          }
+   </div>
+
+ 
+</div> <!--- End of section for planname, cost, status -->
+
+<!---- Pack address section -------------------->                       
+<div class="mb-3">
+    <label for="address" class="form-label">
+      <ng-icon name="bootstrapHouseAddFill" size="32px"/> &nbsp; 
+          Address:
+    </label>
+      <input type="text" name="address" class="form-control input"   
+        id="address"
+        formControlName="address" autocomplete="off" placeholder="Please, Enter Address">
+            @if(staffForm.get('address')?.hasError('required')&&staffForm.get('address')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Address is required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+<!---- Pack id_card section ---------------->   
+<div style="display: flex; flex-direction: row; flex-wrap: wrap;">                  
+<div class="mb-3 col-md-4">
+    <label for="id_card" class="form-label">
+      <ng-icon name="bootstrapPersonCircle" size="32px"/>
+          Id Card Number:
+    </label>
+      <input type="text" name="id_card" class="form-control input" 
+        id="id_card" formControlName="id_card" autocomplete="off" placeholder="Id Card">
+            @if(staffForm.get('id_card')?.hasError('required')&&staffForm.get('id_card')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Pack Trials days Features are required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+<!---- Pack phone section ------------------------->                       
+<div class="mb-3 col-md-4" style="margin-left: 1em;">
+    <label for="phone" class="form-label">
+      <ng-icon name="bootstrapPhone" size="32px"/> &nbsp; 
+       Phone:
+    </label>
+      <input type="text" name="phone" class="form-control input"
+        id="phone" formControlName="phone" autocomplete="off" placeholder="Phone">
+            @if(staffForm.get('phone')?.hasError('required')&&staffForm.get('phone')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Phone Number are required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+<!---- Pack age section ------------------------->                       
+<div class="mb-3 col-md-3" style="margin-left: 1em;">
+    <label for="age" class="form-label">
+      <ng-icon name="bootstrapPersonCircle" size="32px"/> &nbsp; 
+       Age:
+    </label>
+      <input type="number" name="age" class="form-control input"  
+        id="age" formControlName="age" autocomplete="off" placeholder="Age"
+        min="10" max="100">
+            @if(staffForm.get('age')?.hasError('required')&&staffForm.get('age')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Age is required*
+
+              </span>
+            </div>
+        }
+   </div>
+
+
+
+</div>  <!-- End of this line in view form -->
+<!---- Pack gender section ----------------> 
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap;justify-content:space-between;"> 
+<div class="mb-3 col-md-5">
+    <label for="gender" class="form-label">
+      <ng-icon name="bootstrapPersonCircle" size="32px"/> &nbsp; 
+          Gender:
+    </label>
+        <select name="gender" id="gender" class="form-control input" formControlName="gender" placeholder="Gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>   
+        </select>
+
+            @if(staffForm.get('gender')?.hasError('required')&&staffForm.get('gender')?.touched){
+            <div class="form-error">
+              <span class="text-danger">Gender are required*
+
+              </span>
+            </div>
+        }
+   </div>
+<!---- staff field section ------------------------->                       
+<div class="mb-3 col-md-4" style="margin-left: 1em;">
+  <label for="field" class="form-label">
+    <ng-icon name="bootstrapPersonWorkspace" size="32px"/> &nbsp; 
+     Field:
+  </label>
+    <input type="text" name="field" class="form-control input"
+      id="field" formControlName="field" autocomplete="off" placeholder="Field">
+          @if(staffForm.get('field')?.hasError('required')&&staffForm.get('field')?.touched){
+          <div class="form-error">
+            <span class="text-danger">Field is required*
+
+            </span>
+          </div>
+      }
+ </div>
+
+
+   </div> <!--- End of Gender and field options -->
+
+
+
+
+
+
+        <!------ Pack Image Section ------------------------->
+        
+        <div class="mb-3">
+
+            <label for="image" class="control-label" style="color: aliceblue; font-weight: bold;">Add Pack Picture:
+
+            </label>
+        
+               <input id="image" type="file"  class="form-control " name="myfile" accept="image/*"  formControlName="image" (change)="changeImg($event)" multiple required="required" />
+               
+               
+            <div class="file-custom"  >
+                <!-- ensures that the image is only displayed when a file has been selected and the preview is ready.-->
+                @if (imagePreviewUrl) {
+                <img [src]="imagePreviewUrl" alt="Preview" style="margin: 1em; height: 10em; width: 8em;">}
+            </div>
+
+        </div>                        
+        <!------ End Of Pack Image SEction ------------------>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100 mt-3 btnPack" id="btnpack" [disabled]="staffForm.invalid"> Create Pack</button>
+                        </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

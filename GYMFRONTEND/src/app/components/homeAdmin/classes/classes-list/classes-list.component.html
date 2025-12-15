@@ -1,0 +1,110 @@
+<body class="color-fondo">
+    <br>
+
+    <div style="display: flex; justify-content: center;">
+       <h2 style="color:antiquewhite">Table Classes List</h2>
+     </div>
+    <br/> 
+
+     <!-- Search bar --------------------------------------------------->
+
+<div class="wrapper">
+    <div class="search-group">
+      <input type="search" class="search-input" [(ngModel)]="searchTerm" placeholder="Search by Code or Category" />
+      <div class="search-icon-wrapper link">
+      <img src="../../../../../assets/icons/search.png" alt="Search" class="search-icon" />
+    </div>
+  </div>
+</div>
+
+<br/>
+
+    <!-- end Search bar ------------------------------------------------>
+
+
+<div style="max-height: 40em !important; display: flex; flex-wrap: nowrap; flex-direction: column; overflow:auto;">
+
+  <table class="table table-secondary table-bordered  table-hover text-center table-responsive-sm mt-5 "  >
+    <thead class="table-dark border-light">
+     <tr>
+        <th scope="col" style="width: 2em;">#</th>
+        <th scope="col" style="width: 5em;">Photo</th>
+        <th scope="col">Name</th>
+        <th scope="col">class day</th>
+        <th scope="col" style="text-wrap: wrap;">Date Begin</th>
+        <th scope="col" style="width: 4em;">Code</th>
+        <th scope="col">Class Time</th>
+        <th scope="col" style="width: 5em;">Class Level</th>
+        <th scope="col">Session Time</th>
+        
+        <th scope="col">Price</th>
+        <th scope="col">Trainer</th>
+        <th scope="col">key Benefits</th>
+        <!--<th scope="col">Expert trainer</th>
+        <th scope="col">class overview</th>
+        <th scope="col">Why Matters</th>-->
+
+
+
+        <th scope="col">Edit/delete</th>
+                       
+     </tr>
+    </thead>
+    <tbody class="border-dark table-secondary">
+      <tr *ngFor="let element of filteredclass | paginate: { itemsPerPage: 5, currentPage: page }; let row = index;" >           
+        
+        <td style="width: 2em;">{{row+1}}</td>
+        <td>
+          <img [src]= 'baseUrl+element.image' width="45vmax" height="50vmax" alt='Staff'></td>
+
+        <td>{{element?.classname ? element?.classname :'not set'}}</td>
+        <td style="width: 6em; word-wrap: break-word;">{{element?.classday? element?.classday :'not set'}}</td>
+        <td style="text-wrap: wrap !important; overflow: hidden ;">{{element?.dateBegin? element?.dateBegin :'not set'}}</td>
+        <td>{{element?.code? element?.code :'not set'}}</td>
+        <td>{{element?.classtime? element?.classtime :'not set'}}</td>
+        <td>{{element?.classlevel? element?.classlevel :'not set'}}</td>
+        <td>{{element?.session_time? element?.session_time :'not set'}}</td>
+
+        <td>{{element?.price? element?.price :'not set'}}</td>
+        <td>{{element?.trainer? element?.trainer :'not set'}}</td>
+        <td>{{element?.key_benefits? element?.key_benefits :'not set'}}</td>
+        <!--<td>{{element?.expert_trainer? element?.expert_trainer :'not set'}}</td>
+        <td>{{element?.class_overview? element?.class_overview :'not set'}}</td>
+        <td>{{element?.why_matters? element?.why_matters :'not set'}}</td>-->
+
+        <td style="width: 8em !important;">
+          <button class="btn btn-primary">
+            <span (click)="editDetails(element.id)">
+              <ng-icon name="bootstrapPersonLinesFill"/>
+            </span>
+          </button>&nbsp;
+          <button class="btn btn-danger"  >
+            <span (click)="deleteDetails(element,row,$event)">
+               <ng-icon name="bootstrapTrash3"/>
+            </span>
+          </button>
+        </td>
+    </tr>
+   </tbody>
+</table>       
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</div> 
+<div style="background-color: #2196f3;">
+  <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>
+<br/>
+<br/>
+<br/>
+  </body>
+

@@ -1,0 +1,113 @@
+.img-fluid {
+    max-width: 100%;
+    height: 520px;
+  }
+  .window {
+    background: rgb(58,145,170);
+    background: linear-gradient(35deg, rgba(58,145,170,0.9570027840237657) 0%, rgba(147,192,231,0.9794117476091999) 100%, rgba(114,157,171,0.6432772938276874) 100%); 
+    border-color: #797878;
+   
+   
+  }
+  .window .nav_logo-name {
+    font-size: 26px;
+  }
+  .window .formLogin {
+    color: #ffffff;
+    padding-right: 20px;
+  }
+  .window .formLogin .input {
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+  }
+  .window .formLogin .input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .window .btnLogin {
+    border: none;
+    background-color: #1c7ae6;
+    color: #ffffff;
+    box-shadow: 1px 0 10px #eed7df;
+    transition: all 0.2s ease-in-out;
+  }
+  #btnLogin:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  #btnLogin:hover {
+    background-color: #3e5e7c !important;
+    border-color: #131212 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #ffffff !important;
+  }
+  
+  .form-control { @media (max-width: 760px) { 
+   width: 80%; }}
+
+  .btnLogin { @media (max-width: 760px) { 
+    width: 70% !important; }}
+
+  .windowsSSheight { @media (max-width: 760px) { 
+      height: 48em !important;
+      overflow: auto;
+      overflow-wrap: anywhere;
+      overflow-y: scroll;
+    }}
+
+
+/*=============
+ Breadcrumb
+===============*/
+
+.breadcrumb-area{
+	background-image:	url(../../../../../assets//images/breadcrumb-img.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	padding: 138px 0px 156px;
+}
+.breadcrumb-area .heading{
+	color: #fff;
+	margin-bottom: 10px;
+}
+.breadcrumb-area .contact-box{
+	display: flex;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	align-items: center;
+}
+.breadcrumb-area .contact-box ul li a{
+	color: #fff;
+	transition: 0.3s;
+}
+.breadcrumb-area .contact-box ul li a:hover{
+	color: var(--main-color);
+}
+.breadcrumb-area .contact-box span i{
+	font-size: 18px;
+	margin: 0px 10px;
+}
+
+/* Responsive */
+
+@media (max-width: 1199px) {
+	.breadcrumb-area .heading{
+		font-size: 38px;
+	}
+}
+@media (max-width: 767px) {
+	.breadcrumb-area{
+		padding: 88px 0px 92px;
+	}
+	.breadcrumb-area .heading{
+		font-size: 34px;
+	}
+	.breadcrumb-area .contact-box{
+		font-size: 18px;
+	}
+}

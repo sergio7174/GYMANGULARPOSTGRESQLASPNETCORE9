@@ -1,0 +1,27 @@
+/*=================
+ Brand Section
+===================*/
+
+.brand-section{
+	background-color: #EFEFEF;
+	padding: 70px 76px;
+}
+
+.brand-section .brand-carousel .brand-item img{
+	width: auto;
+	object-fit: cover;
+	margin: auto;
+}
+
+/* Responsive */
+
+@media (max-width: 1199px) {
+	.brand-section{
+		padding: 70px 40px;
+	}
+}
+@media (max-width: 991px) {
+	.brand-section{
+		padding: 70px 10px;
+	}
+}

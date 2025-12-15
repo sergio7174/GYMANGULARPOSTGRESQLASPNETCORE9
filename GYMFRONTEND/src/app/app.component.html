@@ -1,0 +1,21 @@
+<app-topbar></app-topbar>
+
+@if ((!isAuthenticated)) {
+  <div class="topmenu">
+    <app-topusermenu></app-topusermenu>
+  </div>} 
+
+@if (isAuthenticated && IsAdmin=='false') {
+  <div class="topmenu">
+    <app-topusermenu></app-topusermenu>
+  </div>} 
+    
+@if (isAuthenticated && IsAdmin=='true') {
+    <div class="topmenu">
+      <app-topadminmenu></app-topadminmenu>
+    </div>}
+
+
+<main class="main" style="/*background-color: rgb(162, 165, 164);*/ height: 60em; padding: 2em;">
+  <router-outlet></router-outlet>
+</main>

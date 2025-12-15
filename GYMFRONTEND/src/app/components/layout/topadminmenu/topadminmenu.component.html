@@ -1,0 +1,154 @@
+
+  
+    <div style="display: flex ; flex-direction: row ; justify-content: center; background: rgb(179, 182, 182) !important;"> 
+        <!--- Begining of the NavBar Block  -->
+        <nav class="navbar navbar-expand-sm " style="background:  rgb(179, 182, 182) !important;">
+         <div class="container-fluid" >
+           <a class="navbar-brand" routerLink="/homeAdmin" id="NavBrandHome"  style="width: 8em; color: black; font-weight: 400;">Home Admin</a>           
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="mynavbar">
+         
+             <ul class="menuItems navbar-nav me-auto">
+        
+          <!--- OPtion Sales -------------------------------------------->
+              <!--<li class="nav-item" style="width: 10em;margin-top: 0.4em;">
+                  <a class="nav_link hover-underline" routerLink="sales" 
+                  [ngClass]="{'active': currentRoute === 'sales'}">
+                  <ng-icon name="bootstrapCalculator" size="17px" />
+                  &nbsp;
+      
+                  <span class="nav_name">Sales</span>
+              </a>
+      
+               </li>-->
+               
+                 <!--- Second Menu option ----------->
+              <li class="nav-item dropdown" style="width: 10em;margin-top: 0.4em; ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(35, 66, 124) !important;" >
+                  <ng-icon name="bootstrapColumnsGap" size="17px" />
+                  &nbsp;
+                  Packs</a>
+                <ul class="dropdown-menu bg-op-submenu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+                  <li style="height: 2em;">
+                    <a class="dropdown-item" style="color:rgb(35, 66, 124); text-align: center; margin-top: 0.3em;" routerLink="/createPack" >Pack Create
+                    </a>
+                  </li>
+                  __________________________
+                  <li style="height: 2.4em;">
+                    <a class="dropdown-item" routerLink="/listPack" style="margin-top: 0.9em; color:rgb(35, 66, 124);text-align: center;" >Pack List 
+                    </a>
+                  </li>
+      
+                </ul>
+              </li>
+            <!--- Second Menu option end block----------->
+    
+            <!--- Third Menu option ----------->
+            <li class="nav-item dropdown" style="width: 10em;margin-top: 0.4em; ">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(35, 66, 124) !important;">
+                <ng-icon name="bootstrapDatabaseFillCheck" size="17px" />
+                &nbsp;
+                Staff</a>
+              <ul class="dropdown-menu bg-op-submenu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+                <li style="height: 2em;">
+                  <a class="dropdown-item" style="color:rgb(35, 66, 124); text-align: center; margin-top: 0.3em;" routerLink="/createStaff">Create Staff
+                  </a>
+                </li>
+                __________________________
+                <li style="height: 2.4em;">
+                  <a class="dropdown-item" routerLink="/listStaff" style="margin-top: 0.9em; color:rgb(35, 66, 124);text-align: center;">Staff List 
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
+          <!--- Third Menu option end block----------->
+    
+                  <!--- 4 Th Menu option ----------->
+                  <li class="nav-item dropdown" style="width: 10em;margin-top: 0.4em; ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(35, 66, 124) !important;">
+                      <ng-icon name="bootstrapCalculator" size="17px" />
+                      &nbsp;
+                      Members</a>
+                    <ul class="dropdown-menu bg-op-submenu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+                      <li style="height: 2.4em;">
+                        <a class="dropdown-item" routerLink="/listMembers" style="margin-top: 0.9em; color:rgb(35, 66, 124);text-align: center;">Members List 
+                        </a>
+                      </li>
+          
+                    </ul>
+                  </li>
+                <!--- 4 Th Menu option end block----------->
+                  <!--- 5 Th Menu option ----------->
+                  <li class="nav-item dropdown" style="width: 10em;margin-top: 0.4em; ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(35, 66, 124) !important;">
+                      <ng-icon name="bootstrapClipboardPlusFill" size="17px" />
+                      &nbsp;
+                      Categories</a>
+                    <ul class="dropdown-menu bg-op-submenu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+                      <li style="height: 2em;">
+                        <a class="dropdown-item" style="color:rgb(35, 66, 124); text-align: center; margin-top: 0.3em;" routerLink="/createCategory">Create Categories
+                        </a>
+                      </li>
+                      __________________________
+                      <li style="height: 2.4em;">
+                        <a class="dropdown-item" routerLink="/listCategories" style="margin-top: 0.9em; color:rgb(35, 66, 124);text-align: center;">Categories List 
+                        </a>
+                      </li>
+          
+                    </ul>
+                  </li>
+                <!--- 5 Th Menu option end block----------->
+            <!--- OPtion Users ----------------------------------------->
+             <!--- 6 Th Menu option ----------->
+             <li class="nav-item dropdown" style="width: 10em;margin-top: 0.4em; ">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(35, 66, 124) !important;">
+                <ng-icon name="bootstrapPersonFillGear" size="17px" />
+                &nbsp;
+                Users</a>
+              <ul class="dropdown-menu bg-op-submenu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+                <li style="height: 2em;">
+                  <a class="dropdown-item" style="color:rgb(35, 66, 124); text-align: center; margin-top: 0.3em;" routerLink="/register">Create Users
+                  </a>
+                </li>
+                __________________________
+                <li style="height: 2.4em;">             
+                  <a class="dropdown-item" routerLink="/listUsers" style="margin-top: 0.9em; color:rgb(35, 66, 124);text-align: center;">User List 
+                  </a>
+                </li>
+    
+              </ul>
+            </li>
+          <!--- 6 Th Menu option end block----------->
+<!--- 7 Th Menu option ----------->
+<li class="nav-item dropdown" style="width: 10em;margin-top: 0.4em; ">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(35, 66, 124) !important;">
+    <ng-icon name="bootstrapPersonFillGear" size="17px" />
+    &nbsp;
+    Classes</a>
+  <ul class="dropdown-menu bg-op-submenu" style="box-shadow: 0.6em black !important; background: rgb(175, 171, 167);">
+    <li style="height: 2em;">
+      <a class="dropdown-item" style="color:rgb(35, 66, 124); text-align: center; margin-top: 0.3em;" routerLink="/createClass">Create Class
+      </a>
+    </li>
+    __________________________
+    <li style="height: 2.4em;">             
+      <a class="dropdown-item" routerLink="/listClasses" style="margin-top: 0.9em; color:rgb(35, 66, 124);text-align: center;">List Classes 
+      </a>
+    </li>
+
+  </ul>
+</li>
+<!--- 7 Th Menu option end block----------->
+
+<!--- End of Block OPtion Reports ------------------------------->
+      
+      
+             </ul>
+        
+           </div>
+         </div>
+        </nav> 
+        </div>

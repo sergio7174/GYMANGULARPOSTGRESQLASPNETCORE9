@@ -1,0 +1,202 @@
+<div class="container mt-4">
+    <div class="window rounded-3" >
+     <div class="row windowsSSheight">
+       <!-- Columna para la imagen -->
+        
+       <div class="col-md-5 "  style="margin: 1em;">
+
+            <img class="img-fluid rounded-3" src="../../../../assets/images/work-1.png" alt="Gym_register" style="height: 46em; width: 35em; margin-top: 3em; margin-left: 2em;" >
+        </div>
+
+          <div class="col-md-6">
+            <div class="logo text-center">
+              <div class="row nav_logo_texts">
+
+                <div class="col-md-12" style="margin-top: 2em;margin-bottom: 2em;">
+                    <span class="nav_logo-name" style="color: #2b69dd; ">Gym Control</span> 
+                    
+                </div>
+
+                <div class="col-12">
+                    <img src="../../../../assets/logo/logo2.jpg" width="50em" alt="pharmacy-logo">&nbsp;&nbsp;
+                    <span class="nav_logo-name"  style="color: #2b69dd;">Sergio Fitness</span>
+                    <span class="nav_logo-name"  style="color: #0b0a4b; font-size: 1rem; position: relative; top: -5px; left: 5px;">App</span>
+                    
+                </div>
+              </div>
+            </div>
+  
+    
+        <div class="formRegister" style="height: 60em; margin-bottom: 2em;">
+          <div style="display: flex; flex-direction: row; justify-content: center;">          
+            <div>
+              <h2 class="text-center nav_logo-name" style="padding-top: -1em; color: #2b69dd;">Register 
+              </h2>
+            </div>
+         </div>
+
+<div class="formRegister">
+
+ <div style="display: flex; flex-direction: row; justify-content:center">            
+    <div class="col-lg-8">
+
+            <form [formGroup]="registerForm" (ngSubmit)="onRegister()" autocomplete="off">
+  
+  <!-- fullname input --------------------------------------->               
+             <div class="mb-3">
+                <label for="fullName" class="form-label">
+                 <ng-icon name="bootstrapPersonCircle"  size="32px"/> &nbsp; 
+                    Username:
+                </label>
+                 <input type="fullName" name="fullName" class="form-control input" id="fullName"
+                    formControlName="fullName" autocomplete="off" placeholder="Please, Enter your Username">
+                    @if(registerForm.get('fullName')?.hasError('required')&&registerForm.get('fullName')?.touched){
+                     <div class="form-error">
+                      <span class="text-danger">Username is required*</span>
+                     </div>
+                        }
+                </div>
+  
+     <!-- is Email input   ------------------------------->             
+       <div class="mb-3">
+          <label for="email" class="form-label">
+           <ng-icon name="bootstrapMailbox2Flag" size="32px"/> &nbsp; 
+              Email:</label>
+               <input type="email" 
+               name="email" 
+               class="form-control input" id="email"                            
+               formControlName="email" 
+               autocomplete="off" 
+               placeholder="Please, Enter your Email">
+                  @if(registerForm.get('email')?.hasError('required')&&registerForm.get('email')?.touched){
+                   <div class="form-error">
+                      <span class="text-danger">Email is required*</span>
+                  </div>
+          }
+      </div>
+  <!-- is Password input --------------------------------------------->
+  <div class="mb-3">
+       <label for="password" id="password" class="form-label">
+          <ng-icon name="bootstrapKeyFill" size="32px"/> &nbsp;
+          Password:
+       </label>
+        <p-password
+                   formControlName="password"
+                   [feedback]="false"
+                   [toggleMask]="true"
+                   inputId="password"
+                   inputStyleClass="w-full"
+                   styleClass="w-full"   
+                   />
+
+          @if(password.invalid && (password.dirty || password.touched)) {
+           <small class="block p-error"> Password is required </small>
+              }
+      </div>
+  <!-- is confirmPassword input --------------------------------------->
+      <div class="field">
+       <label for="confirmPassword" id="confirmPassword" class="form-label">
+          <ng-icon name="bootstrapKeyFill" size="32px"/> &nbsp;
+          Confirm Password:
+       </label>
+      
+          <p-password
+              formControlName="confirmPassword"
+              [feedback]="false"
+              [toggleMask]="true"
+              inputId="confirmPassword"
+              inputStyleClass="w-full"
+              styleClass="w-full "
+              />
+            
+          @if(confirmPassword.invalid && (confirmPassword.dirty ||
+              confirmPassword.touched)) {
+          <small class="block p-error"> Confirm Password is required 
+          </small>} 
+          @if(registerForm.hasError('passwordMismatch') && password.valid &&
+              confirmPassword.valid) 
+              {
+           <small class="block p-error"> Password mismatch </small>
+              }
+      </div>
+  
+      @if (haveAdmin=='false') {
+   <!-- is admin input ----------------------------------------------->    
+                         
+      <div class="mt-2" id="isAdmin">
+       <label for="cars" style="margin-bottom: 0.5em; color: brown; font-weight:600;">
+          <ng-icon name="bootstrapPersonCircle"  size="32px"/> &nbsp; 
+          Is Admin ?
+      </label>
+  
+          <select class="form-control form-select" formControlName="isAdmin" id="isAdmin">
+  
+           <option value="true">True</option>
+           <option value="false" selected>False</option>
+                          
+          </select>
+      @if(registerForm.get('isAdmin')?.hasError('required') && registerForm.get('isAdmin')?.touched){
+      <div class="form-error">
+       <span class="text-danger">Enter if It's Admin*</span>
+      </div>
+          }
+      </div>
+    }
+  <!-- is admin input End Block ----------------------------->
+
+  @if (haveAdmin=='true') {
+    <!-- is admin input ----------------------------------------------->    
+                          
+       <div class="mt-2" id="isAdmin">
+        <label for="cars" style="margin-bottom: 0.5em; color: brown; font-weight:600;">
+           <ng-icon name="bootstrapPersonCircle"  size="32px"/> &nbsp; 
+           Is Admin ?
+       </label>
+   
+           <select class="form-control form-select" formControlName="isAdmin" id="isAdmin">
+            <option value="false" selected>False</option>   
+           </select>
+       @if(registerForm.get('isAdmin')?.hasError('required') && registerForm.get('isAdmin')?.touched){
+       <div class="form-error">
+        <span class="text-danger">Enter if It's Admin*</span>
+       </div>
+           }
+       </div>
+     }
+   <!-- is admin input End Block ----------------------------->
+  <!------ User Image Section ------------------------->
+        
+  <div class="mb-3">
+
+    <label for="image" class="control-label" style="color: aliceblue; font-weight: bold;">Add User Picture:
+
+    </label>
+
+       <input id="image" type="file"  class="form-control " name="myfile" accept="image/*"  formControlName="image" (change)="changeImg($event)" multiple required="required" />
+       
+       
+    <div class="file-custom"  >
+        <!-- ensures that the image is only displayed when a file has been selected and the preview is ready.-->
+        @if (imagePreviewUrl) {
+        <img [src]="imagePreviewUrl" alt="Preview" style="margin: 1em; height: 10em; width: 8em;">}
+    </div>
+
+</div>                        
+<!------ End Of User Image Section ------------------>               
+  
+      <div class="text-center" style="margin-top: 1em;">
+          <button type="submit" class="btn btn-primary w-100 mt-3 btnRegister" id="btnRegister" [disabled]="registerForm.invalid">Register
+          </button>
+      </div>
+       <br/>
+       <br/>
+       <br/>
+          </form>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div> 
+   </div>
+  </div>
+</div>

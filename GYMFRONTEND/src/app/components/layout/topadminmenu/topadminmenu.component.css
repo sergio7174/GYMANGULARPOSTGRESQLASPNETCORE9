@@ -1,0 +1,250 @@
+
+    
+    .shadow {
+        box-shadow: 0 0.0625rem 0.125rem 0.0625rem #00000026;
+        }  
+    
+    
+      
+      /*--------------------------------------------------------------
+      # General Styling & Shared Classes
+      --------------------------------------------------------------*/
+      body {
+        color: var(--default-color);
+        background-color: var(--background-color);
+        font-family: var(--default-font);
+      }
+      
+      a {
+        color: var(--accent-color);
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      
+      a:hover {
+        color: color-mix(in srgb, var(--accent-color), transparent 25%);
+        text-decoration: none;
+      }
+      
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: var(--heading-color);
+        font-family: var(--heading-font);
+      }
+      
+      /* Pulsating Play Button
+      ------------------------------*/
+      .pulsating-play-btn {
+        width: 94px;
+        height: 94px;
+        background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
+        border-radius: 50%;
+        display: block;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .pulsating-play-btn:before {
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        animation-delay: 0s;
+        animation: pulsate-play-btn 2s;
+        animation-direction: forwards;
+        animation-iteration-count: infinite;
+        animation-timing-function: steps;
+        opacity: 1;
+        border-radius: 50%;
+        border: 5px solid color-mix(in srgb, var(--accent-color), transparent 30%);
+        top: -15%;
+        left: -15%;
+        background: rgba(198, 16, 0, 0);
+      }
+      
+      .pulsating-play-btn:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-40%) translateY(-50%);
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 15px solid #fff;
+        z-index: 100;
+        transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+      
+      .pulsating-play-btn:hover:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-40%) translateY(-50%);
+        width: 0;
+        height: 0;
+        border: none;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 15px solid #fff;
+        z-index: 200;
+        animation: none;
+        border-radius: 0;
+      }
+      
+      .pulsating-play-btn:hover:after {
+        border-left: 15px solid var(--accent-color);
+        transform: scale(20);
+      }
+      
+      @keyframes pulsate-play-btn {
+        0% {
+          transform: scale(0.6, 0.6);
+          opacity: 1;
+        }
+      
+        100% {
+          transform: scale(1, 1);
+          opacity: 0;
+        }
+      }
+      
+      
+
+      
+      
+      /*--------------------------------------------------------------
+      # Navigation Menu
+      --------------------------------------------------------------*/
+      
+      .brand-group {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-right: 3em;
+        @media (max-width: 760px) {display: none;}
+       }
+    
+        /*** Styles to move the menu options to the center in small screens **/
+        .litScreenDontShow { @media (max-width: 760px) { display: none;}}
+    
+        
+        .brand-name {
+        text-wrap: nowrap;
+        cursor: pointer;
+        margin-left: 4px;
+        padding: 30px 0px;
+        }
+        .user-group {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-top: 0.9em;
+        gap: 20px;
+        @media (min-width: 760px) {
+        gap: 30px;
+        padding-right: 20px;
+        }
+        }
+        .user-icon,
+        .cart-icon {
+        width: 24px;
+        height: 100%;
+        object-fit: contain;
+        cursor: pointer;
+        }
+        .cart {
+        position: relative;
+        cursor: pointer;
+        }
+        .cart-count {
+        background-color: var(--accent-color) !important;
+        font-size: 0.9em;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -4px;
+        right: -8px;
+        }
+        .cart-total {
+        font-size: 0.8em;
+        position: absolute;
+        bottom: -12px;
+        left: 0px;
+        }
+    
+    
+    /*--------------------------------------------------------------
+      # Navigation Menu hover
+      --------------------------------------------------------------*/
+     
+      .hover-underline {
+        font-size: 1rem;
+        color: #ffffff;
+        color:#2196f3;
+        position: relative;
+        display: inline-block;
+    
+      }
+      
+      .hover-underline::after,
+      .hover-underline::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #ff0000, #00ffff);
+        bottom: -5px;
+        left: 0;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.4s ease-out;
+      }
+      
+      .hover-underline::before {
+        top: -5px;
+        transform-origin: left;
+      }
+      
+      .hover-underline:hover::after,
+      .hover-underline:hover::before {
+        transform: scaleX(1);
+      }
+    
+      /**** another hover effect for menu options *****/
+      .menuItems li a:hover {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    
+    }
+    
+    /**** another  effect for menu options *****/
+    .menuItems li a {
+    
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+  
+    
+    
+      /*--------------------------------------------------------------
+      # Starter Section Section
+      --------------------------------------------------------------*/
+
+      #NavBrandHome a.active { color:#f32f21 !important;}
+      
+      .nav-link a.active { color:#f32f21 !important;}

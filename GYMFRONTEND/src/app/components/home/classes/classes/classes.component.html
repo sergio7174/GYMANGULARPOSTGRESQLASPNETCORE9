@@ -1,0 +1,78 @@
+<!-- Start Breadcrumb -->
+
+    <!-- Start Breadcrumb -->
+
+	<div class="breadcrumb-area">
+		<div class="container">
+			<div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+               <div>
+                  <span>
+                     <h4><a href="#">Home</a></h4>
+                  </span>
+              </div>
+              <div style="margin-top: 0.2em;">
+				<span>
+                    <ng-icon name="bootstrapChevronRight" size="25px"/>
+                </span>
+             </div>
+             <div> 
+				<span> 
+                    <h4><a href="#">Classes List</a></h4>
+                </span>
+            </div>    
+			</div>
+		</div>
+	</div>
+
+	<!-- End Breadcrumb -->
+
+<section class="classes-pag" style="margin-top: -5em !important;">
+  <div class="container">
+    <div class="row">
+        
+        @for (classes of filteredItems; track classes._id) {
+  <!--- begins my block -->
+
+  <!-- Start Classes Pag Section -->
+
+                <div class="col-lg-4 col-md-6">
+					<div class="classes-box">
+						<img [src]= 'baseUrl+classes.image' alt="Classes">
+						<h4 class="heading">{{classes.classname}}</h4>
+						<p>{{classes.expert_trainer}}</p>
+                        <p>{{classes.class_overview}}</p>
+                         
+                        <!--<a [routerLink]="['/classDetails',classes._id]">Read More
+                            <ng-icon name="bootstrapArrowRight" size="22px" id="right-arrow" style="padding-top: 0.4em;" />
+                        </a>-->
+                        <button class="btn btn-danger"  >
+                          <span (click)="ClassDetails(classes._id)">Read More
+                             <ng-icon name="bootstrapArrowRight"/>
+                          </span>
+                        </button> 
+					
+                    </div>
+                  </div>  
+		
+		
+            
+  <!--- Ends my block -->
+
+
+    }
+ </div>
+</div>     
+<!---- Back Button -->
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>
+
+</section> 
+<app-footer></app-footer>
+<br/>
+<br/>
+<br/>
+<br/>

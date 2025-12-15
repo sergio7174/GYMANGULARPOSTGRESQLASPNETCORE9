@@ -1,0 +1,65 @@
+<!-- Start Breadcrumb -->
+
+    <!-- Start Breadcrumb -->
+
+	<div class="breadcrumb-area">
+		<div class="container">
+			<div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+               <div>
+                  <span>
+                     <h4><a href="#">Home</a></h4>
+                  </span>
+              </div>
+              <div style="margin-top: 0.2em;">
+				<span>
+                    <ng-icon name="bootstrapChevronRight" size="25px"/>
+                </span>
+             </div>
+             <div> 
+				<span> 
+                    <h4><a href="#">Classes Table</a></h4>
+                </span>
+            </div>    
+			</div>
+		</div>
+	</div>
+
+	<!-- End Breadcrumb -->
+
+    <section class="class-schedule-section">
+		<div class="container">
+			<div style="overflow-x: auto;">
+				<table>
+					<tr>
+						<th>Day</th>
+						<th>Class Name</th>
+						<th>Class Time</th>
+						<th>Trainer Name</th>
+					</tr>
+        
+        @for (classes of filteredItems; track classes._id) {
+  <!--- begins my block -->
+
+  <!-- Start Classes Pag Section -->
+
+  <tr>
+    <td>{{classes.classday}}</td>
+    <td>{{classes.classname}}</td>
+    <td>{{classes.classtime}}</td>
+    <td>{{classes.trainer}}</td>
+  </tr>         
+            
+  <!--- Ends my block -->
+
+
+    }
+</table>
+ </div>
+</div>     
+<!---- Back Button -->
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>

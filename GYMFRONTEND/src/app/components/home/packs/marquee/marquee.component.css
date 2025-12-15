@@ -1,0 +1,45 @@
+/*=================
+  Marquee Section
+===================*/
+
+.marquee-section{
+	
+	background-image: url(../../../../../assets/images/marquee-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 0px;
+	margin-bottom: -1em;
+}
+.marquee-section .marquee-box{
+	display: flex;
+	overflow: hidden;
+}
+.marquee-section .marquee-item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	flex-shrink: 0;
+	animation: marquee 30s linear infinite;
+}
+@keyframes marquee{
+	0%{
+		transform: translate(0%);
+	}
+	100%{
+		transform: translate(-100%);
+	}
+}
+.marquee-section .marquee-item .text{
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.2777;
+	color: var(--main-color);
+}
+.marquee-section .marquee-item .dots{
+	width: 10px;
+	height: 10px;
+	background-color: var(--main-color);
+	border-radius: 50%;
+	margin: 0px 30px;
+}

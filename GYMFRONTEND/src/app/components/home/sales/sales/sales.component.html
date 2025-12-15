@@ -1,0 +1,128 @@
+<!-- Start Breadcrumb -->
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+           <div>
+              <span>
+                 <h4><a href="#">Home</a></h4>
+              </span>
+          </div>
+          <div style="margin-top: 0.2em;">
+            <span>
+                <ng-icon name="bootstrapChevronRight" size="25px"/>
+            </span>
+         </div>
+         <div> 
+            <span> 
+                <h4><a href="#">Pack Bill</a></h4>
+            </span>
+        </div>    
+        </div>
+    </div>
+</div>
+
+<!-- End Breadcrumb -->
+
+<!-- Start Class Details  Section -->
+
+<div class="container mt-4" style="height: 40em;">
+    <div class="window rounded-3">
+        <div class="row windowsSSheight">
+            <!-- Columna para la imagen -->
+            <div class="col-md-5 d-flex justify-content-center align-items-center" style="margin: 2em;">
+
+                <img class="class-image" [src]= 'baseUrl+DataPack.image' alt="img" style="height: 36em; width: 30em; margin-top: 1,5em; margin-left: 2em;">
+            </div>
+            <div class="col-md-5 rounded-3" style="margin-left: 2em;">
+               <div class="logo text-center">
+                <div class="row nav_logo_texts">
+                    <div class="col-12">
+                        <span class="nav_logo-name" style="position: relative; top: 15px; color: #2b69dd;">Gym Control</span> 
+                        
+                    </div>
+                    <div class="col-12">
+
+                        <img src="../../../../assets/logo/logo2.jpg" width="50em" alt="Gym-logo">&nbsp;&nbsp;
+                        <span class="nav_logo-name"  style="color: #2b69dd;">Sergio Fitness</span>
+                        <span class="nav_logo-name"  style="color: #0b0a4b; font-size: 1rem; position: relative; top: -5px; left: 5px;">App</span>
+                    </div>
+
+                </div>
+               </div>
+                <div class="formcategory">
+                   <div style="display: flex; flex-direction: row; justify-content: center;">
+                    
+                    
+
+                    <div>
+                      <h2 class="text-center nav_logo-name" style="padding-top: -1em; color: #2b69dd;">Create Bill </h2>
+                    </div>
+                </div>
+                    <br/>
+                    <form [formGroup]="membersForm" (ngSubmit)="onCreateBill()" autocomplete="off">
+
+  <!---- Username and Email section -------------------->                      
+
+   <h4>Username: {{UserName}}</h4>
+   <h4>Email: {{email}}</h4>
+   <h4>Pack Name: {{DataPack.nameplan}}</h4>
+   <h4>Time Days: {{DataPack.timedays}}</h4>
+   <h4>Price: {{DataPack.cost}}</h4>
+    <br/>
+
+  <!----client_CI section ------------------------->                       
+        <div class="mb-3">
+          <label for="name" class="form-label">
+            <ng-icon name="bootstrapPersonCircle" size="32px"/> &nbsp; 
+            Client CI:
+          </label>
+            <input type="text" name="client_CI" class="form-control input" id="client_CI" formControlName="client_CI" autocomplete="off" placeholder="Please, Enter client_CI">
+             @if(membersForm.get('client_CI')?.hasError('required')&&membersForm.get('client_CI')?.touched){
+             <div class="form-error">
+              <span class="text-danger">Category Name is required*</span>
+             </div>
+                            }
+         </div>
+
+<!----Phone section ------------------------->                       
+<div class="mb-3">
+    <label for="phone" class="form-label">
+      <ng-icon name="bootstrapTelephoneForwardFill" size="32px"/> &nbsp; 
+      Phone #:
+    </label>
+      <input type="text" name="phone" class="form-control input" id="phone" formControlName="phone" autocomplete="off" placeholder="Please, Enter Phone">
+       @if(membersForm.get('phone')?.hasError('required')&&membersForm.get('phone')?.touched){
+       <div class="form-error">
+        <span class="text-danger">Phone # is required*</span>
+       </div>
+                      }
+   </div>
+
+
+        <div class="text-center">
+         <button type="submit" class="btn btn-primary w-100 mt-3 btnLogin" id="btnLogin" [disabled]="membersForm.invalid"> Create Bill</button>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+    </form>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+        
+
+
+
+
+ 
+<!---- Back Button -->
+<div class="form-group" style="margin-top: 1em; ">
+    <div class="col-md-6">
+      <input type="submit" value="Back" class="btn btn-primary"
+          (click)="back()">
+      </div>
+</div>
+

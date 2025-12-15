@@ -1,0 +1,99 @@
+ <!-- Start Breadcrumb -->
+
+ <div class="breadcrumb-area">
+    <div class="container">
+        <div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+           <div>
+              <span>
+                 <h4><a href="#">Home</a></h4>
+              </span>
+          </div>
+          <div style="margin-top: 0.2em;">
+            <span>
+                <ng-icon name="bootstrapChevronRight" size="25px"/>
+            </span>
+         </div>
+         <div> 
+            <span> 
+                <h4><a href="#">Contact Us</a></h4>
+            </span>
+        </div>    
+        </div>
+    </div>
+</div>
+
+<!-- End Breadcrumb -->
+
+
+<!-- Start Contact Section -->
+
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content">
+                    <div class="Information-box">
+                        <div class="icon">
+                        
+                            <ng-icon name="bootstrapPinMapFill" size="25px"/>
+                        
+                        </div>
+                        <div class="address">
+                            <h4>Address</h4>
+                            <p>70 Washington Square South New York, <br> NY 10012, United States</p>
+                        </div>
+                    </div>
+                    <div class="separetor">
+                        <span></span>
+                    </div>
+                    <div class="Information-box">
+                      <div class="icon">
+                        <ng-icon name="bootstrapTelephoneFill" size="25px"/>
+                    </div>
+                        <div class="address">
+                            <h4>Phone</h4>
+                            <p>Mobile: +(84) 546-6789 <br> Hotline: +(84) 456-6789</p>
+                        </div>
+                    </div>
+                    <div class="separetor">
+                        <span></span>
+                    </div>
+                    <div class="Information-box">
+                        <div class="icon">
+                            <ng-icon name="bootstrapClockFill" size="25px"/>
+                        </div>
+                        <div class="address">
+                            <h4>Open Hours</h4>
+                            <p>Monday-Friday: 9:00 - 22:00 <br> Saturday-Sunday: 9:00 - 21:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-content">
+                    <h2 class="title">Have Any Other Question?</h2>
+                    <p>Feel free to reach out! Our team is here to help with any inquiries you may have. We're happy to assist!</p>
+                    <form class="contact-form" method="post" action="contact-handler.php">
+                        <input type="text" name="username" placeholder="Your Name">
+                        <input type="email" name="usermail" placeholder="Your Email">
+                        <input type="tel" name="userphone" placeholder="Phone Number">
+                        <textarea id="usermessage" name="usermessage" placeholder="Enter your messages"></textarea>
+                        <button type="submit">Submit Questions<i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Contact Section -->
+
+<!-- Start Google Maps -->
+
+<div class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2088.40001273384!2d-0.12141357480568132!3d51.503305553551236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sbd!4v1740205257122!5m2!1sen!2sbd" width="1270" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+</div>
+
+<!-- End Google Maps -->
+
+<app-footer></app-footer>

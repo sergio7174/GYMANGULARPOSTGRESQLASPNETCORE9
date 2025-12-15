@@ -1,0 +1,100 @@
+<!-- Start Breadcrumb -->
+
+	<div class="breadcrumb-area">
+		<div class="container">
+			<div class="contact-box" style="display: flex; flex-direction: row; flex-wrap: wrap; align-content: center; margin-top: -3em;">
+               <div>
+                  <span>
+                     <h4><a href="#">Home</a></h4>
+                  </span>
+              </div>
+              <div style="margin-top: 0.2em;">
+				<span>
+                    <ng-icon name="bootstrapChevronRight" size="25px"/>
+                </span>
+             </div>
+             <div> 
+				<span> 
+                    <h4><a href="#">Pack List</a></h4>
+                </span>
+            </div>    
+			</div>
+		</div>
+	</div>
+
+	<!-- End Breadcrumb -->
+
+<section class="team-section trainers-section" style="margin-top: -5em !important;">
+  <div class="container">
+    <div class="row">
+      <div class="team-member">
+        @for (pack of filteredItems; track pack.id) {
+          <!--- begins my block -->
+          <div class="member-box" style="margin: 1em; border: 0.3em double  gray; ">
+            <div class="images">
+             <img [src]= 'baseUrl+pack.image' width="45vmax" height="50vmax" alt='pack'>
+           </div>
+           <div class="bio">
+            
+            <div class="box-head">
+                <h4 class="price-title" style="color: brown; font-weight: 400;">{{pack.nameplan}} Package</h4>
+                <span class="price">$ {{pack.cost}}</span>&nbsp;
+                <span class="validity">/Per Month</span>
+            </div>
+              <br/>
+            <div class="box-body">
+                <ul>
+                    <li style="text-align:start;"><ng-icon name="bootstrapCheckCircle" size="18px" style="color: darkgreen;" />
+                        &nbsp;&nbsp;&nbsp;&nbsp; {{pack.description}}
+                    </li>
+
+                    <li style="text-align:start;">
+                      <ng-icon name="bootstrapCheckCircle" size="18px" style="color: darkgreen;" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;Time Days {{ pack.timedays}}
+                    </li>
+
+                    
+                </ul>
+               <!-- <div class="button">
+                  <a href="#" class="btn">Purchase Now 
+                    <ng-icon name="bootstrapArrowRight" size="22px" id="right-arrow" style="padding-top: 0.4em;" />
+                  
+                  </a> 
+                  
+                </div>-->
+                <button class="btn btn-danger"  >
+                  <span (click)="PurchaseNow(pack.id)">Purchase Now
+                     <ng-icon name="bootstrapArrowRight"/>
+                  </span>
+                </button> 
+
+
+            </div>
+
+
+          </div>
+        </div>
+            
+  <!--- Ends my block -->
+
+
+    }
+ </div>
+</div>     
+</div>
+</section> 
+
+<div style="margin-bottom: 2em;">
+   <app-marquee></app-marquee>
+</div>
+
+<div style="margin-bottom: 2em;">
+  <app-workprocess></app-workprocess>
+</div>
+
+
+<app-footer></app-footer>
+<br/>
+<br/>
+<br/>
+<br/>

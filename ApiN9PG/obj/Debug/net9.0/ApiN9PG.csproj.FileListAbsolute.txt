@@ -1,0 +1,272 @@
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\appsettings.Development.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\appsettings.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ApiN9PG.staticwebassets.endpoints.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ApiN9PG.exe
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ApiN9PG.deps.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ApiN9PG.runtimeconfig.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ApiN9PG.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ApiN9PG.pdb
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Humanizer.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Npgsql.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\Scalar.AspNetCore.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\System.CodeDom.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.csproj.AssemblyReference.cache
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.AssemblyInfoInputs.cache
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.AssemblyInfo.cs
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.csproj.CoreCompileInputs.cache
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.MvcApplicationPartsAssemblyInfo.cs
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.MvcApplicationPartsAssemblyInfo.cache
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\scopedcss\bundle\ApiN9PG.styles.css
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\staticwebassets.build.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\staticwebassets.development.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.csproj.Up2Date
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\refint\ApiN9PG.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.pdb
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ApiN9PG.genruntimeconfig.cache
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\obj\Debug\net9.0\ref\ApiN9PG.dll
+D:\ASPNETCORE\Angular 19 .Net 9 - Auth -Images PostgresSql Ok\ApiN9PG\bin\Debug\net9.0\ApiN9PG.staticwebassets.runtime.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\appsettings.Development.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ApiN9PG.staticwebassets.endpoints.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\appsettings.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ApiN9PG.staticwebassets.runtime.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ApiN9PG.exe
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ApiN9PG.deps.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ApiN9PG.runtimeconfig.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ApiN9PG.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ApiN9PG.pdb
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\BCrypt.Net-Next.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Humanizer.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Npgsql.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\Scalar.AspNetCore.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\System.CodeDom.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\System.Composition.Convention.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\System.Composition.Hosting.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\System.Composition.Runtime.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\System.Composition.TypedParts.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.csproj.AssemblyReference.cache
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.AssemblyInfoInputs.cache
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.AssemblyInfo.cs
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.csproj.CoreCompileInputs.cache
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.MvcApplicationPartsAssemblyInfo.cs
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.MvcApplicationPartsAssemblyInfo.cache
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\scopedcss\bundle\ApiN9PG.styles.css
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\staticwebassets.build.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\staticwebassets.development.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.csproj.Up2Date
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\refint\ApiN9PG.dll
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.pdb
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ApiN9PG.genruntimeconfig.cache
+E:\ASPNETCORE 2026\GYM ASPNETCORE9 POSTGRESQL\ApiN9PG\obj\Debug\net9.0\ref\ApiN9PG.dll
